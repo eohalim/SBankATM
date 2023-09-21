@@ -17,10 +17,12 @@ public class LoginManager : MonoBehaviour
 
     public void LoginBtnClick()
     {
+        
         string inputName = NameInputField.text;
         string inputPassword = PwInputField.text;
 
-        if(userDataManager.VerifyUserDB(inputName, inputPassword))
+        SceneManager.LoadScene("MainScene");
+        /*if(userDataManager.VerifyUserDB(inputName, inputPassword))
         {
             SceneManager.LoadScene("MainScene");
         }
@@ -28,6 +30,7 @@ public class LoginManager : MonoBehaviour
         {
             Debug.Log("가입을 진행하세요!");
         }
+        */
     }
 
 }

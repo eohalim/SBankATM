@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
 {
+    public GameObject SignupPopup;
+
     public void CreditsBtnButtonClick()
     {
         SceneController.ChangeScene("CreditsScene");
@@ -25,12 +27,25 @@ public class ButtonController : MonoBehaviour
         SceneController.ChangeScene("TransferScene");
     }
 
-    /*회원가입팝업 아직 음슴 
-    public void SignupButtonClick()
+    public void LoginBtnButtonClick()
     {
-        SceneController.ChangeUI_Popup("UI_Pop");
+        SceneController.ChangeScene("MainScene");
     }
-    */
+
+    public void SignupBtnButtonClick()
+    {
+        SignupPopup.SetActive(true);
+    }
+
+    public void CompletedBtnButtonClick()
+    {
+        SceneController.ChangeScene("LoginScene");
+    }
+
+    public void BsckBtnButtonClick()
+    {
+        SceneController.ChangeScene("MainScene");
+    }
 }
 
 
