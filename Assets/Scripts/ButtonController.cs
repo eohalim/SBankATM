@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
 {
+
+
+    /* 애니메이션 효과 버튼 크기 달라지는 것 넣을 예정 미정 사오정  
     public Animator animator;
 
     void Start()
@@ -35,4 +38,5 @@ public class ButtonController : MonoBehaviour
             animator.speed = 0; // 속도를 0으로 설정하여 멈춤
         }
     }
+*/
 }

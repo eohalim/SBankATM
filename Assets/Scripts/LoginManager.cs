@@ -20,7 +20,7 @@ public class LoginManager : MonoBehaviour
     {
         if(NameInputField.text == valiName && PwInputField.text == valiPassword)
         {
-            LoginScene.SetActive(false);
+            LoginScene.SetActive(true);
 
             SceneManager.LoadScene("MainScene");
         }
