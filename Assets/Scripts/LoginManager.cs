@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class LoginManager : MonoBehaviour
@@ -12,23 +13,20 @@ public class LoginManager : MonoBehaviour
     public ButtonController LoginBtn;
     public ButtonController SignupBtn;
 
-    private readonly string name = "name";
-    private string password = "1234";
-
-    public CustomSceneManager customSceneManager;
+    private readonly string valiName = "name";//valiName으로 안쓰고 name 으로 써서 오류뜸 이하 동문  
+    private readonly string valiPassword = "1234";
 
     public void LoginBtnClick()
     {
-        if(NameInputField.text == name && PwInputField.text == password)
+        if(NameInputField.text == valiName && PwInputField.text == valiPassword)
         {
-            Debug.Log("로그인 성공");
             LoginScene.SetActive(false);
 
-            customSceneManager.LoadMainScene();
+            SceneManager.LoadScene("MainScene");
         }
         else
         {
-            Debug.Log("로그인 실패");
+            Debug.Log("가입을 진행하세요!");
         }
     }
 
