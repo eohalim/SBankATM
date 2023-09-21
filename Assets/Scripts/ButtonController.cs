@@ -5,6 +5,33 @@ using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
 {
+    public void CreditsBtnButtonClick()
+    {
+        SceneController.ChangeScene("CreditsScene");
+    }
+
+    public void DebitsBtnButtonClick()
+    {
+        SceneController.ChangeScene("DebitsScene");
+    }
+
+    public void LoanBtnButtonClick()
+    {
+        SceneController.ChangeScene("LoanScene");
+    }
+
+    public void TransferBtnButtonClick()
+    {
+        SceneController.ChangeScene("TransferScene");
+    }
+
+    /*회원가입팝업 아직 음슴 
+    public void SignupButtonClick()
+    {
+        SceneController.ChangeUI_Popup("UI_Pop");
+    }
+    */
+}
 
 
     /* 애니메이션 효과 버튼 크기 달라지는 것 넣을 예정 미정 사오정  
@@ -39,4 +66,3 @@ public class ButtonController : MonoBehaviour
         }
     }
 */
-}

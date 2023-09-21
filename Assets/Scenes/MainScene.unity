@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 54172470}
   - component: {fileID: 54172469}
   - component: {fileID: 54172474}
-  - component: {fileID: 54172473}
+  - component: {fileID: 54172475}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -232,19 +232,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &54172473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54172468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
 --- !u!95 &54172474
 Animator:
   serializedVersion: 5
@@ -266,6 +253,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &54172475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54172468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &123368378
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,6 +413,7 @@ GameObject:
   - component: {fileID: 459547054}
   - component: {fileID: 459547053}
   - component: {fileID: 459547056}
+  - component: {fileID: 459547057}
   m_Layer: 5
   m_Name: LoanBtn
   m_TagString: Untagged
@@ -485,7 +485,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 459547054}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &459547054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,6 +557,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &459547057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459547051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &885333421
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +582,7 @@ GameObject:
   - component: {fileID: 885333425}
   - component: {fileID: 885333424}
   - component: {fileID: 885333423}
+  - component: {fileID: 885333427}
   m_Layer: 5
   m_Name: TransferBtn
   m_TagString: Untagged
@@ -650,7 +675,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 885333425}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &885333425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,6 +726,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885333421}
   m_CullTransparentMesh: 1
+--- !u!114 &885333427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885333421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &895270388
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,6 +1307,7 @@ GameObject:
   - component: {fileID: 1634255739}
   - component: {fileID: 1634255738}
   - component: {fileID: 1634255737}
+  - component: {fileID: 1634255740}
   m_Layer: 5
   m_Name: CreditsBtn
   m_TagString: Untagged
@@ -1329,7 +1379,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1634255738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1634255738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1368,6 +1430,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634255735}
   m_CullTransparentMesh: 1
+--- !u!114 &1634255740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634255735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1831350090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,6 +1454,7 @@ GameObject:
   - component: {fileID: 1831350092}
   - component: {fileID: 1831350091}
   - component: {fileID: 1831350094}
+  - component: {fileID: 1831350095}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1471,6 +1546,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ec855ad697f143718c6b9445b724c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1831350095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831350090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2024486123
@@ -1621,6 +1708,7 @@ GameObject:
   - component: {fileID: 2049059256}
   - component: {fileID: 2049059255}
   - component: {fileID: 2049059258}
+  - component: {fileID: 2049059259}
   m_Layer: 5
   m_Name: DebitsBtn
   m_TagString: Untagged
@@ -1692,7 +1780,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2049059256}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2049059256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1752,3 +1852,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2049059259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049059253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89d8ecef826b4d5e93e534a3401f9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

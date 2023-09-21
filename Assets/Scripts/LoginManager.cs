@@ -13,15 +13,15 @@ public class LoginManager : MonoBehaviour
     public ButtonController LoginBtn;
     public ButtonController SignupBtn;
 
-    private readonly string valiName = "name";//valiName으로 안쓰고 name 으로 써서 오류뜸 이하 동문  
-    private readonly string valiPassword = "1234";
+    public UserDataManager userDataManager;
 
     public void LoginBtnClick()
     {
-        if(NameInputField.text == valiName && PwInputField.text == valiPassword)
-        {
-            LoginScene.SetActive(true);
+        string inputName = NameInputField.text;
+        string inputPassword = PwInputField.text;
 
+        if(userDataManager.VerifyUserDB(inputName, inputPassword))
+        {
             SceneManager.LoadScene("MainScene");
         }
         else
