@@ -41,7 +41,6 @@
   
     - 4. 회원가입 (애매한 구현)
         - pw - ~12글자
-        - PS, PS Confirm  - 입력시 *** 마스킹 처리
 
 
  <img width="690" alt="스크린샷 2023-09-22 오후 12 22 58" src="https://github.com/eohalim/SBankATM/assets/141598175/bef39ab0-6eab-45ac-9f6f-490f2d231fae">
