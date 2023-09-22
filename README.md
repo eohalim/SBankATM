@@ -4,8 +4,6 @@
 
 ## 과제1 - 난이도[하]
 
-<img width="690" alt="스크린샷 2023-09-22 오후 12 18 20" src="https://github.com/eohalim/SBankATM/assets/141598175/999ad5ab-0c28-4150-9d50-b2daa82f7689">
-
 💡 ATM 시스템 만들기
 ▶ 유니티와 UI 에 대해서 익숙해지고 기본적인 객체 간 연산을 연습해 봅시다!
 
@@ -13,6 +11,8 @@
 - 필수요구사항
 
 <img width="690" alt="스크린샷 2023-09-22 오후 12 20 27" src="https://github.com/eohalim/SBankATM/assets/141598175/2575a60c-86b9-4350-a267-bf04249ba123">
+
+<img width="690" alt="스크린샷 2023-09-22 오후 12 26 18" src="https://github.com/eohalim/SBankATM/assets/141598175/925c6c29-739a-44ed-9905-58e5564a1a11">
 
 
     - 1. ATM 화면 구성 (UI만 구현)
@@ -26,6 +26,8 @@
 
         
 - 선택요구사항
+
+<img width="690" alt="스크린샷 2023-09-22 오후 12 18 20" src="https://github.com/eohalim/SBankATM/assets/141598175/999ad5ab-0c28-4150-9d50-b2daa82f7689">
   
     - 3. 로그인 기능 (애매한 구현)
         - 실행하면 **필수요구사항 1. ATM** 대신 로그인 화면이 먼저 나타납니다.
@@ -33,7 +35,8 @@
         - 아이디와 비밀번호는 아무값이나 입력해도 상관없습니다.
         - 비밀번호 입력시 마스킹을 통해 *** 으로 표시됩니다.
 
-   <img width="690" alt="스크린샷 2023-09-22 오후 12 21 29" src="https://github.com/eohalim/SBankATM/assets/141598175/fcd018c3-b943-4a7f-942d-898c3eb2199f">
+ 
+ <img width="690" alt="스크린샷 2023-09-22 오후 12 21 29" src="https://github.com/eohalim/SBankATM/assets/141598175/fcd018c3-b943-4a7f-942d-898c3eb2199f">
 
   
     - 4. 회원가입 (애매한 구현)
@@ -41,7 +44,7 @@
         - PS, PS Confirm  - 입력시 *** 마스킹 처리
 
 
-<img width="690" alt="스크린샷 2023-09-22 오후 12 22 58" src="https://github.com/eohalim/SBankATM/assets/141598175/bef39ab0-6eab-45ac-9f6f-490f2d231fae">
+ <img width="690" alt="스크린샷 2023-09-22 오후 12 22 58" src="https://github.com/eohalim/SBankATM/assets/141598175/bef39ab0-6eab-45ac-9f6f-490f2d231fae">
 
 
     - 5. 그 외 대출씬, 송금씬, 은행로고 
