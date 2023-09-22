@@ -30,7 +30,7 @@ public class SignupManager : MonoBehaviour
                 newBie[i] = new UserDB();
                 newBie[i].Name = NameInputField.text;
                 newBie[i].Pw = PwInputField.text;
-             
+
                 break;
             }   
         }

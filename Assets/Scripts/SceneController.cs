@@ -16,6 +16,16 @@ public static class SceneController
     }
 }
 
+
+
+
+
+
+
+
+
+
+
 /* 'SceneController' 클래스에 'LoadScene' 메서드가 정의되어 있지 않다는 오류 뜸 
  public static class SceneController
 {
