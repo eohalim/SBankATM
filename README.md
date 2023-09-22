@@ -46,7 +46,7 @@
  <img width="690" alt="스크린샷 2023-09-22 오후 12 22 58" src="https://github.com/eohalim/SBankATM/assets/141598175/bef39ab0-6eab-45ac-9f6f-490f2d231fae">
 
 
-    - 5. 그 외 대출씬, 송금씬, 은행로고 
+    - 5. 그 외 대출씬, 송금씬
         - 작동은 안됩니다. 언젠가 업데이트 예정 ~~~<3
 
     
